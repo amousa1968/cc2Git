@@ -1,8 +1,8 @@
 #! /usr/bin/python
 
 #TODO: nazwa modulu bledna bo nie tylko checkouted ale tez private.
-__author__="langiewi_m"
-__date__ ="$Jul 1, 2010 7:48:54 AM$"
+__author__="amousa_68"
+__date__ ="$Dec 9, 2016 7:48:54 AM$"
 
 import os
 import os.path
@@ -31,22 +31,22 @@ def backup(view, lscmd, backup_dir):
 
 if __name__ == "__main__":
     VIEWS = [
-        "LANGIEWI_M_EMPTY",
-        "LANGIEWI_M_PORTA_052_011_310_MAINT_DEV",
-        "LANGIEWI_M_PORTA_052_011_310_MAINT_INT",
-        "LANGIEWI_M_PORTA_BAS_052_MAINT_DEV",
-        "LANGIEWI_M_PORTA_BAS_052_MAINT_PREINT",
-        "LANGIEWI_M_PORTA_FRONTIER_DEV",
-        "LANGIEWI_M_PORTA_FRONTIER_PREINT",
-        "LANGIEWI_M_PORTA_KERNEL_2_4_31-SHC",
-        "LANGIEWI_M_PORTA_WEBCOMMON_BAS_022_MAINT_DEV",
-        "LANGIEWI_M_PORTA_WEBCOMMON_BAS_022_MAINT_PREINT",
-        "LANGIEWI_M_TOOLING_PIB",
+        "amousa_EMPTY",
+        "amousa_PORTA_052_011_310_MAINT_DEV",
+        "amousa_PORTA_052_011_310_MAINT_INT",
+        "amousa_PORTA_BAS_052_MAINT_DEV",
+        "amousa_PORTA_BAS_052_MAINT_PREINT",
+        "amousa_PORTA_FRONTIER_DEV",
+        "amousa_PORTA_FRONTIER_PREINT",
+        "amousa_PORTA_KERNEL_2_4_31-SHC",
+        "amousa_PORTA_WEBCOMMON_BAS_022_MAINT_DEV",
+        "amousa_PORTA_WEBCOMMON_BAS_022_MAINT_PREINT",
+        "amousa_TOOLING_PIB",
         "PORTA_TO_GIT",
     ]
 
-    BACKUP_DIR_LSCO = "/home/langiewi_m/backup_porta_lsco/"
-    BACKUP_DIR_LSPRIVATE = "/home/langiewi_m/backup_porta_lsprivate/"
+    BACKUP_DIR_LSCO = "/home/amousa/backup_porta_lsco/"
+    BACKUP_DIR_LSPRIVATE = "/home/amousa/backup_porta_lsprivate/"
 
     for view in VIEWS:
         print "VIEW:", view
